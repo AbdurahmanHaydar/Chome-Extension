@@ -20,9 +20,7 @@ function clearTodo(event){
   localStorage.clear();
 
 }
-
-
-  chrome.extension.getBackgroundPage().console.log('here');
+ 
 
 function showTodos(key){
 
